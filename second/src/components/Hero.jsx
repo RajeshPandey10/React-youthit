@@ -5,9 +5,10 @@ import Condition from './Condition'
 const Hero = () => {
   return (
     <Layout>
-        <Condition/>
+        {/* <Condition/> */}
         
         </Layout>
+    
   )
 }
 

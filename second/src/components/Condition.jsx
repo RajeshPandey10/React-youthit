@@ -9,6 +9,7 @@ const Condition = () => {
   let user ={
     role:"customer",
      name:"youth it",
+     address:"haiha",
      isAuth:true
   }
   const {role,name,isAuth}=user
