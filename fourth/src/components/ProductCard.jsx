@@ -1,4 +1,4 @@
-import { FaHeart, FaCartPlus, FaEye, FaStar } from "react-icons/fa";
+
 
 const ProductCard = ({ item }) => {
   const handleAddToCart = () => {
