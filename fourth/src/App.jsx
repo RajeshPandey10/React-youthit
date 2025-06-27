@@ -12,8 +12,9 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="hooks" element={<UseState/>}/>
+          <Route path="hooks" element={<UseEff/>}/>
         </Route>
+        
       </Routes>
     </BrowserRouter>
 </>
