@@ -3,7 +3,7 @@ import { CartContext } from '../context/CartContext'
 
 const Cart = () => {
     const {items}= useContext(CartContext)
-    const total = items.reduce((a,b)=>a+ b.price,0)
+    const total = items.reduce((a,b)=>a+ parseInt(b.price),0)
     
   return (
     <>
